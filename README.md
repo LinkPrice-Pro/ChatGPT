@@ -1,30 +1,36 @@
 # AI Shopping × Google Commerce Growth Proposal
 
-ChatGPT/GEO 상품 발견 전략과 Google Merchant Center → 무료 상품 노출 → Google Ads(Shopping / Performance Max)를 연결한 웹 제안서입니다.
+GitHub Pages에 바로 배포할 수 있는 정적 제안서입니다.
 
-## GitHub Pages 사용법
-1. 이 ZIP의 압축을 풉니다.
-2. GitHub 저장소의 루트에 `index.html`과 `README.md`를 그대로 업로드합니다.
-3. GitHub 저장소 → **Settings → Pages**로 이동합니다.
-4. **Deploy from a branch** → `main` / `(root)` 선택 후 저장합니다.
-5. 생성된 GitHub Pages URL로 제안서를 확인합니다.
+## 배포
+1. ZIP 압축을 풉니다.
+2. `index.html`과 `assets` 폴더를 GitHub 저장소 루트에 그대로 업로드합니다.
+3. GitHub → Settings → Pages에서 Branch 배포를 활성화합니다.
+4. 생성된 Pages URL에 접속하면 비밀번호 입력 화면이 먼저 표시됩니다.
 
-## 조작법
-- 키보드 `← / →`, `↑ / ↓`, `Page Up / Page Down`으로 페이지 이동
-- 좌측 하단 이전/다음 버튼 사용
-- 우측 페이지 인디케이터 클릭 이동
-- 브라우저 인쇄(Ctrl+P)로 PDF 저장 가능
+## 열람 비밀번호
+- 비밀번호: `135897`
+- 제안서 URL을 새로 열거나 새로고침하면 비밀번호 입력 화면이 다시 표시됩니다.
+- 비밀번호 원문은 HTML에 직접 저장하지 않고 SHA-256 해시 비교 방식으로 처리했습니다.
 
-## 커스터마이징 포인트
-- `index.html` 상단의 `LINKPRICE COMMERCE GROWTH` 문구를 광고주명/브랜드명으로 변경 가능
-- `:root`의 컬러 변수로 제안서 색상 변경 가능
-- 14페이지 `초기 진단에 필요한 정보`를 실제 광고주 상황에 맞게 수정 권장
+> 주의: GitHub Pages는 정적 호스팅이므로 이 기능은 **제안서 화면 접근을 막는 프론트엔드 잠금**입니다. 서버 인증/사내 문서 DRM 수준의 보안은 아닙니다. 공개 저장소에서는 소스 파일 자체에 대한 접근을 완전히 차단할 수 없습니다.
 
-## 주요 출처
-- Mobiinside: ChatGPT 캐러셀 노출 원리 실험 분석 (2026-05-07)
-- Vircle: GEO AI 브랜드 노출 전략
-- OpenAI Help Center: Shopping with ChatGPT Search
-- Google Merchant Center Help: Product data specification / Free listings / Data sources / Ads linkage
-- Google Ads Help: Performance Max / Shopping / Product reporting
+## 조작
+- 좌/우 방향키, Page Up/Down: 이전/다음 페이지
+- 마우스 휠/트랙패드/터치 스와이프: 가로 이동
+- 좌측 상단 `목차`: 원하는 페이지로 바로 이동
+- `M` 키: 목차 열기
+- `Ctrl + P`: PDF 저장
 
-> 주의: ChatGPT 상품 노출은 보장할 수 없습니다. 제3자 실험 결과는 공식 랭킹 로직과 구분해서 사용해야 하며, OpenAI 공식 문서상 상품 정보는 제3자 제공자 또는 판매자 직접 제공 메타데이터 등 다양한 소스를 활용할 수 있습니다.
+## 이번 수정 사항
+- 우측 상단 LinkPrice 이미지 로고 적용
+- 세로형 → 가로형 슬라이드 전환
+- 목차 오버레이 추가
+- 비밀번호 인증 화면 추가 (`135897`)
+- 기존 2p `근거` 삭제
+- 기존 3p `중요` / `참고` 삭제
+- 기존 7p 하단 `Google Merchant Center 공식` 참고 문구 삭제
+- 기존 8p `참고` 삭제
+- 기존 16p 참고자료 페이지 삭제
+
+총 15페이지입니다.
